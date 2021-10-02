@@ -17,7 +17,7 @@ class ShowDashboard
      */
     public function __invoke(Request $request, AppManager $apps)
     {
-        return view('websockets::dashboard', [
+        return view('websockets::websocket_dashboard', [
             'apps' => $apps->all(),
             'port' => config('websockets.dashboard.port', 6001),
             'channels' => DashboardLogger::$channels,
