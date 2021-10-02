@@ -40,7 +40,7 @@ class WebSocketsServiceProvider extends ServiceProvider
         ], 'migrations');
 
         $this->publishes([
-            __DIR__ . '/../resources/views/websocket_dashboard.blade.php' => resource_path('views/websocket_dashboard.blade.php'),
+            __DIR__ . '/../resources/views/websocket_dashboard.blade.php' => resource_path('views/vendor/websockets/websocket_dashboard.blade.php'),
         ], 'views');
 
         $this->registerAsyncRedisQueueDriver();
