@@ -8,7 +8,7 @@ order: 2
 Laravel WebSockets can be installed via composer:
 
 ```bash
-composer require beyondcode/laravel-websockets
+composer require Famitekeg/laravel-websockets
 ```
 
 The package will automatically register a service provider.
@@ -16,7 +16,7 @@ The package will automatically register a service provider.
 You need to publish the WebSocket configuration file:
 
 ```bash
-php artisan vendor:publish --provider="BeyondCode\LaravelWebSockets\WebSocketsServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Famitekeg\LaravelWebSockets\WebSocketsServiceProvider" --tag="config"
 ```
 
 # Statistics
@@ -26,7 +26,7 @@ This package comes with migrations to store statistic information while running 
 You can publish the migration file using:
 
 ```bash
-php artisan vendor:publish --provider="BeyondCode\LaravelWebSockets\WebSocketsServiceProvider" --tag="migrations"
+php artisan vendor:publish --provider="Famitekeg\LaravelWebSockets\WebSocketsServiceProvider" --tag="migrations"
 ```
 
 Run the migrations with:

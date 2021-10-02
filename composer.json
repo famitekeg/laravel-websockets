@@ -60,11 +60,6 @@
             "Famitekeg\\LaravelWebSockets\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Famitekeg\\LaravelWebSockets\\Test\\": "tests"
-        }
-    },
     "scripts": {
         "test": "vendor/bin/phpunit"
     },
