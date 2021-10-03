@@ -109,7 +109,7 @@ class WebSocketsServiceProvider extends ServiceProvider
      */
     protected function registerDashboard()
     {
-        $this->loadViewsFrom(__DIR__ . '/../resources/views/', 'websocket_dashboard');
+        $this->loadViewsFrom(__DIR__ . '/../resources/views/', 'websockets');
 
         $this->registerDashboardRoutes();
         $this->registerDashboardGate();
